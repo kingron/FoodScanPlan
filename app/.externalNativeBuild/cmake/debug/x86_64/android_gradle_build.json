@@ -1,0 +1,116 @@
+
+{
+	"buildFiles" : [ "C:/Users/S/FoodScanPlan/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\JrJavaAndroidStudio2.1\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\S\\FoodScanPlan\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "C:\\JrJavaAndroidStudio2.1\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\S\\FoodScanPlan\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target tensorflow_demo",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/imageutils_jni.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/rgb2yuv.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/yuv2rgb.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/frame_pair.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/image_neon.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/logging.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/object_detector.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/object_tracker.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/optical_flow.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/time_log.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/tracked_object.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\object_tracking -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\JrJavaAndroidStudio2.1\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/S/FoodScanPlan/app/src/main/cpp/object_tracking/utils_neon.cc",
+					"workingDirectory" : "C:/Users/S/FoodScanPlan/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "C:/Users/S/FoodScanPlan/app/build/intermediates/cmake/debug/obj/x86_64/libtensorflow_demo.so",
+			"toolchain" : "2748340699"
+		}
+	},
+	"toolchains" : 
+	{
+		"2748340699" : 
+		{
+			"cCompilerExecutable" : "C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/JrJavaAndroidStudio2.1/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
