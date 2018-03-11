@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getActionBar().setTitle("Food Scan Plan");
+
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(this);
 
